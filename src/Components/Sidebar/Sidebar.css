@@ -8,6 +8,7 @@
     top: 0;
     left: 0;
     flex-wrap: wrap;
+    
 }
 
 .button {
@@ -29,3 +30,7 @@ a {
 a:hover {
     color: rgb(255, 217, 0)
 }
+
+.left-sidebar {
+
+  }

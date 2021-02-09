@@ -1,14 +1,14 @@
 import './App.css'
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import React, { Component } from 'react'
-import Main from '../src/Main';
-import About from './pages/About';
-import Education from './pages/Education';
-import Skills from './pages/Skills';
-import Interest from './pages/Interest';
-import Awards from './pages/Awards';
-import Experience from './pages/Experience';
-import Sidebar from './Components/Sidebar'
+import Main from './pages/Home/HomeIndex';
+import About from './Components/Home/About';
+import Education from './Components/Home/Education';
+import Skills from './Components/Home/Skills';
+import Interest from './Components/Home/Interest';
+import Awards from './Components/Home/Awards';
+import Experience from './Components/Home/Experience';
+import Sidebar from './Components/Sidebar/Sidebar'
 
 class App extends Component {
   render() {

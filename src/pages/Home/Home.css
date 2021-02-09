@@ -4,3 +4,7 @@
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
       }
+
+.left-sidebar {
+  margin-left: 12rem;
+}
